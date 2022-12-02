@@ -2,7 +2,7 @@
 console.log('>>>> 1 <<<<')
 
 function pirmas(a, b) {
-    return a > b ? `${a} daugiau uz ${b}` : a === b ? `${a} yra lygu ${b}` : `${b} daugiau uz ${a}`;
+    return a > b ? `${a} daugiau uz ${b}` : a === b ? `${a} lygu ${b}` : `${b} daugiau uz ${a}`;
 }
 
 console.log(pirmas(2, 3))
