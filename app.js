@@ -5,7 +5,7 @@ function pirmas(a, b) {
     return a > b ? `${a} daugiau uz ${b}` : a === b ? `${a} yra lygu ${b}` : `${b} daugiau uz ${a}`;
 }
 
-console.log(pirmas(4, 4))
+console.log(pirmas(2, 3))
 
 
 
